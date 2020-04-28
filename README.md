@@ -1,20 +1,20 @@
 # asl_finger model
 
-## Environment Preparation
+### Environment Preparation
 
-## Yolo v3 Overview
+### Yolo v3 Overview
 
-## Data Preparation
+### Data Preparation
 
-## Model Training
+### Model Training
 
-## Model Evaluation
+### Model Evaluation
 
-## Model Inference
+### Model Inference
 
-  ### Live Video
+  #### Live Video
   
-  ### Recorded Video
+  #### Recorded Video
   
-  ### Image Prediction
+  #### Image Prediction
   
