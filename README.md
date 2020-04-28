@@ -122,3 +122,12 @@ Need to work on this to calculate the MaP (Mean Average Precision) automatically
   
   	python yolo_video.py --image input <path_to_input_image_file(s)> --output <path_to_output_image_file(s)>
   
+#### Things to do
+
+- Convert the model to run in Tensorflow 2.0 & Leverage TFRecords input using Intel CVAT
+- Measure MaP metrics
+- Support Multi-GPU/TPU training for faster learning
+- Speeding up the training process with frozen layers train_bottleneck.py
+- Improve the performance of the current model in terms of different background
+- Extend to the additional alphabets and numbers
+- Investigate word model and extend to sentences using NLP algorithms
