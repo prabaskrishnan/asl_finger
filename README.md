@@ -88,12 +88,25 @@ also update convereted weights path in the below section for model creation
 
 	model = create_model(input_shape, anchors, num_classes,
 							freeze_body=2, weights_path='model_data/yolo_weights.h5')
+							
+Then train the model using
+
+	python train.py
+	
+Use your trained weights or checkpoint weights with command line option --model model_file when using yolo_video.py Remember to modify class path or anchor path, with --classes class_file and --anchors anchor_file.
 
 #### Model Evaluation
+
+Need to work on this to calculate the MaP (Mean Average Precision) automatically.
+
 
 #### Model Inference
 
   ##### Live Video
+  
+  For live video prediction use the following
+  
+  
   
   ##### Recorded Video
   
