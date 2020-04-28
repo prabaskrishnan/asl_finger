@@ -104,11 +104,21 @@ Need to work on this to calculate the MaP (Mean Average Precision) automatically
 
   ##### Live Video
   
-  For live video prediction use the following
+  For live video prediction use the following,
+  
+  	python yolo_live.py
   
   
   
   ##### Recorded Video
   
+  For recorderd video prediction, works well for mp4 for now , need to test for other formats.
+  
+  	python yolo_video.py --input <path_to_input_video_file> --output <path_to_output_video_file>
+  
   ##### Image Prediction
+  
+  For single image or group of image prediction , use
+  
+  	python yolo_video.py --image input <path_to_input_image_file(s)> --output <path_to_output_image_file(s)>
   
