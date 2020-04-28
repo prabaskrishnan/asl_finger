@@ -1,0 +1,147 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 15 files
+Detected 3 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: yolov3/yolo_video.py
+--------------------------------------------------------------------------------
+yolov3/yolo_video.py:16:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: yolov3/yolo_image.py
+--------------------------------------------------------------------------------
+yolov3/yolo_image.py:25:20: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: yolov3/convert.py
+--------------------------------------------------------------------------------
+yolov3/convert.py:245:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: 'yolov3/'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo_video.py'
+ outputting to 'yolov3_tf2/yolo_video.py'
+--------------------------------------------------------------------------------
+
+16:12: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo_image.py'
+ outputting to 'yolov3_tf2/yolo_image.py'
+--------------------------------------------------------------------------------
+
+25:20: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo_live2.py'
+ outputting to 'yolov3_tf2/yolo_live2.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/video_test.py'
+ outputting to 'yolov3_tf2/video_test.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/convert.py'
+ outputting to 'yolov3_tf2/convert.py'
+--------------------------------------------------------------------------------
+
+245:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo_live.py'
+ outputting to 'yolov3_tf2/yolo_live.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/train_bottleneck.py'
+ outputting to 'yolov3_tf2/train_bottleneck.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/kmeans.py'
+ outputting to 'yolov3_tf2/kmeans.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo_praba.py'
+ outputting to 'yolov3_tf2/yolo_praba.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/train.py'
+ outputting to 'yolov3_tf2/train.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo.py'
+ outputting to 'yolov3_tf2/yolo.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/image.py'
+ outputting to 'yolov3_tf2/image.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo3/__init__.py'
+ outputting to 'yolov3_tf2/yolo3/__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo3/model.py'
+ outputting to 'yolov3_tf2/yolo3/model.py'
+--------------------------------------------------------------------------------
+
+215:22: INFO: Added keywords to args of function 'tf.boolean_mask'
+216:27: INFO: Added keywords to args of function 'tf.boolean_mask'
+389:23: INFO: Added keywords to args of function 'tf.boolean_mask'
+411:19: INFO: Renamed 'tf.Print' to 'tf.compat.v1.Print'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file 'yolov3/yolo3/utils.py'
+ outputting to 'yolov3_tf2/yolo3/utils.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
